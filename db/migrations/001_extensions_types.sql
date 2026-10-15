@@ -9,3 +9,5 @@ CREATE TYPE location_kind AS ENUM ('building', 'floor')
 
 CREATE DOMAIN email_address AS text
     CHECK (VALUE ~* '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')
+
+    
